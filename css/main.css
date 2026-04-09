@@ -6,21 +6,16 @@ body {
     margin: 0;
 }
 
-.wrapper-header {
+header .wrapper {
     background-color: black;
     color: #fff;
     max-width: 940px;
     margin: 0 auto ;
 }
 
-.wrapper-header li {
-    display: inline-block;
 
-    padding: 15px;
    
-   /* text-align: right; */
-/* }
-
+/* 
 .wrapper {
     background-color: rgba(0, 0, 0, .5);
     color: #fff;
@@ -116,6 +111,29 @@ body {
     margin: 0;
 }
 
+/* span for header is flex 
+header wrapper flex in parent and jusitfy content and space between 
+do same hting for ul, no justify, margin left 
+
+align center, align text center 
+
+second part 2fr and 1fr grid 
+
+div holds 3 links shit (ur using calculations fort his bullshit) 
+
+max width thtat shit on the third seconton 
+
+imsgrd at end using grid line positino or grid area 
+ */
+
+header .wrapper {
+    display:flex;
+    flex-direction:column;
+    text-align: center;
+    padding: 15px;
+}
+
 header{
-    background-color: 000;
+    background-color: #000;
+    color: #fff;
 }

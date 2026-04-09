@@ -71,13 +71,26 @@ h1 {
     background-color: #fafafa;
 }
 
-.wrapper-services h2 {
+h2 {
     max-width: 940px;
     align-content: center;
 }
 
+.wrapper-services {
+    grid-template: 3/3 ;
+    gap: 3px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.nav {
+    margin: auto;
+}
 
 
+
+   
 
 
 

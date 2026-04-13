@@ -51,39 +51,148 @@ nav a {
   text-decoration: none;
 }
 
+#hero .wrapper {
+  
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  filter: grayscale(70%);
+  background-image: url(../images/hands-typing.jpg);
+  background-size:cover;
+  background-position: center;
+    
 
 }
 
+#hero h1 {
+  margin: 0;
+  max-width: 60% ;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  padding: 1em 1.5em;
+  text-align: center;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
 }
 
+#about-me .wrapper {
+  max-width: 940px;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  align-items: center;
+  gap: 20%;
   padding: 60px 0;
   margin: 0 auto ;
 }
 
 
 
+#services {
+  background-color: #fafafa;
+}
 
+#services .wrapper {
+  margin: auto;
+  max-width: 940px;
+  
+}
 
+#services .wrapper > div {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 4em;
+  padding: 1em 3em 3em ;
+}
 
+#services h2 {
+  text-align: center;
+  margin: auto; 
+  padding: 1em;
+}
+
+#services article {
+  display: flex;
+  flex-direction: column; 
+  padding: 1em;
+  background: #fff;
+}
+
+#services .btn {
+  margin-top: auto;
+  display: flex;
+  padding: 1em;
+  background-color: #000;
+  color: #fff;
+  border: 2px solid #000;
+  text-decoration: none;
+  align-self: flex-start;
+}
+
+#services .btn:hover {
+  background-color: #fff;
+  color: #000;
 }
 
 
+#work .wrapper {
+  max-width: 940px;
+  margin: 0 auto;
+  padding: 1em;
 }
 
+
+#work h2, #work p {
+  max-width: 940px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 0.5em;
+}
+
+#work .wrapper > div {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr); 
+  grid-template-rows: repeat(2, 1fr); 
+  padding: 1em;
+  grid-template-areas: 
+  "a a a b b b"
+  "c c d d e e"
+  ;
+}
+
+#work img {
+  width: 100%;
+  height: 100%;
+  
 }
 
 
+#work img:nth-child(1) {
+  grid-area: a;
+}
 
+#work img:nth-child(2) {
+  grid-area: b;
+}
 
+#work img:nth-child(3) {
+  grid-area: c;
+}
 
+#work img:nth-child(4) {
+  grid-area: d;
+}
 
+#work img:nth-child(5) {
+  grid-area: e;
+}
 
-
-
-
-
-
-
+footer {
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+}
 
 
 

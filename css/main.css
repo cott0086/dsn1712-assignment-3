@@ -1,115 +1,5 @@
-/* *, *::after, *::after {
-    box-sizing: border-box;
-}
-
-body {
-    margin: 0;
-}
-
-header .wrapper {
-    background-color: black;
-    color: #fff;
-    max-width: 940px;
-    margin: 0 auto ;
-}
-
-
-   
-/* 
-.wrapper {
-    background-color: rgba(0, 0, 0, .5);
-    color: #fff;
-    max-width: 940px;
-    margin: 0 auto ;
-}
-
-img {
-    width: 100%;
-}
-
-
-.wrapper {
-    background-image: url(../images/hands-typing.jpg);
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
-    height: 600px;
-    min-height: 500px;
-}
-
-h1 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    max-width: 60%;
-    text-shadow: 2px 2px 4px #676767
-}
-
-.wrapper-about {
-    max-width: 940px;
-    justify-content: center;
-}
-
-.wrapper-about {
-    display: grid;
-
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: (2, 1fr);
-
-    grid-column: 2/3;
-    grid-row: 1/3;
-
-    padding: 15px;
-    border: 5px;
-
-
-    align-content:flex-end;
-}
-
-
-.wrapper-services {
-    max-width: 940px;
-    margin: 0 auto;
-}
-
-h2 {
-    max-width: 940px;
-    align-content: center;
-}
-
-.wrapper-services {
-    justify-content: center;
-    background-color: #fafafa;
-    grid-template: 3/3 ;
-    gap: 3px;
-
-    display: flex;
-    flex-direction: column;
-} */ 
-
-
-
-
-   
 /* .section .wrapper */
 
-
-
-
-
-
-
-
-
-* {
-    box-sizing: border-box;
-}
-
-body {
-    line-height: 1.4;
-    margin: 0;
-}
 
 /* span for header is flex 
 header wrapper flex in parent and jusitfy content and space between 
@@ -126,14 +16,82 @@ max width thtat shit on the third seconton
 imsgrd at end using grid line positino or grid area 
  */
 
-header .wrapper {
-    display:flex;
-    flex-direction:column;
-    text-align: center;
-    padding: 15px;
+* {
+    box-sizing: border-box;
+}
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  line-height: 1.3;
 }
 
 header{
     background-color: #000;
     color: #fff;
 }
+ 
+header .wrapper {
+  display: flex;
+  max-width: 940px; 
+  justify-content: space-between;
+  align-items: center;
+  margin:  auto;
+  padding: 1em;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  gap: 20px; 
+  
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+
+}
+
+}
+
+  padding: 60px 0;
+  margin: 0 auto ;
+}
+
+
+
+
+
+
+}
+
+
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
